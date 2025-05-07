@@ -1,64 +1,35 @@
-# [您的论文标题 Your Dissertation Title]
+# [FusionMedCLIP: A Framework for Few-Shot Medical Anomaly Detection via Adapted Vision-Language Model]
 
-**Author:** [您的姓名 Your Name]
-**Affiliation:** [您的学校/机构 Your Affiliation, e.g., Department of Computer Science, University of Example]
-**Date of Submission/Defense:** [论文提交/答辩日期, e.g., March 2024]
+**Author:** [Ziqian Zhang]
+**Affiliation:** [School of AI and Advanced Computing XI’AN JIAOTONG-LIVERPOOL UNIVERSITY]
+**Date of Submission/Defense:** [April 2025]
 
 ---
 
 ## Abstract
 
-[此处粘贴您论文的摘要。建议英文摘要。]
-(e.g., This dissertation introduces FusionMedCLIP, a novel framework designed specifically for few-shot anomaly detection in medical images by systematically improving and adapting the pre-trained CLIP model...)
+[The integration of artificial intelligence into medical imaging holds great promise for improving diagnostic accuracy and efficiency. Among these applications, detecting anomalies in medical images is crucial for timely diagnosis, yet accurately identifying abnormalities with limited labelled data presents a significant challenge due to the inherent rarity of anomalies and the high cost of expert annotation. This necessitates effective few-shot learning approaches. While large Vision-Language Models, such as CLIP, possess strong generalisation capabilities, their direct application to specialised medical domains is hampered by domain shift and the difficulty of crafting effective textual prompts.
+
+To address these issues, this work introduces FusionMedCLIP, a framework designed to efficiently adapt large vision-language models for few-shot medical anomaly detection through synergistic adaptation. The key 4 contributions lie in the synergistic co-optimization of several components: (i) initial medical domain alignment via ROCO pre-training, (ii) automated, knowledge-augmented prompt generation (CoOp+UMLS) replacing manual crafting, (iii) lightweight, parameter-efficient fine-tuning of the visual encoder (ViT) using LoRA and Block Adapters, and (iv) pathology-guided anomaly synthesis to effectively utilize limited training data. This integrated strategy specifically targets the challenges of few-shot learning in clinical settings. Validated on benchmarks including BrainMRI, BUSI, and CheXpert, FusionMedCLIP achieves state-of-the-art few-shot performance, reaching up to 94.8% Image-AUROC on BrainMRI and 89.9% Pixel-AUROC on BUSI (k=16). This significantly surpasses zero-shot CLIP (>37% Image-AUROC gain on BrainMRI) and leading external anomaly detection methods. By synergistically adapting, FusionMedCLIP offers a practical and effective pathway to leverage their power for medical anomaly detection, specifically addressing the dual challenges of domain adaptation and data scarcity in low-resource clinical settings.]
+
 
 ## Repository Contents
 
-This repository contains the full PDF version of my [硕士/博士 Master's/PhD] dissertation.
+This repository contains the full PDF version of my [Bachelor of Engineering] dissertation.
 
-*   📄 **`[您的论文PDF文件名.pdf]`**: The complete dissertation document.
-*   _(可选) 如果您还上传了其他相关材料，例如poster的PDF版本、代码、补充数据等，也可以在此列出_
-    *   `poster.pdf`: The academic poster presented at [会议/场合 Conference/Occasion].
-    *   `code/`: Source code for the experiments (if applicable and included).
+*   📄 **`[2144337_ZiqianZhang_FusionMedCLIP A Framework for Few-Shot Medical Anomaly Detection via Adapted Vision-Language Model.pdf]`**: The complete dissertation document.
 
 ## How to Access
 
 You can download or view the PDF directly from this repository.
 
-*   To view the PDF: Click on the `[您的论文PDF文件名.pdf]` file above.
-*   To download: Click on the `[您的论文PDF文件名.pdf]` file, then click the "Download" button.
-
-## Citation
-
-If you find this work useful in your research, please consider citing it. You can use the following BibTeX entry (or adapt it as needed):
-
-```bibtex
-@phdthesis{[YourLastName][Year], % 或者 @mastersthesis
-  author    = {[您的完整姓名 Your Full Name]},
-  title     = {[您的论文标题 Your Dissertation Title]},
-  school    = {[您的大学名称 Your University Name]},
-  year      = {[论文年份 Year of Submission/Defense]},
-  % Optional: address   = {[大学所在城市 City, Country]},
-  % Optional: month     = {[月份 Month]},
-  % Optional: note      = {URL: [GitHub仓库链接或者学校论文库链接 if available]},
-  % Optional: type      = {{PhD} dissertation / {Master's} thesis}
-}
-```
-
-**Example Plain Text Citation:**
-
-[您的姓, 您的名首字母缩写]. ([年份]). *[您的论文标题 Your Dissertation Title]* ([硕士/博士论文 Master's thesis/PhD dissertation]). [您的大学名称 Your University Name]. Retrieved from [GitHub仓库链接 URL of this GitHub repository].
+*   To view the PDF: Click on the `[2144337_ZiqianZhang_FusionMedCLIP A Framework for Few-Shot Medical Anomaly Detection via Adapted Vision-Language Model.pdf]` file above.
+*   To download: Click on the `[2144337_ZiqianZhang_FusionMedCLIP A Framework for Few-Shot Medical Anomaly Detection via Adapted Vision-Language Model.pdf]` file, then click the "Download" button.
 
 ## Contact
 
 For any questions regarding this work, feel free to reach out:
-*   Email: `[您的邮箱地址 Your Email Address]`
-*   (可选) GitHub Issues: You can also open an issue in this repository.
-
-## License
-
-(可选，但推荐)
-This dissertation (the PDF document) is licensed under a [例如：Creative Commons Attribution 4.0 International License (CC BY 4.0)]. You are free to share and adapt it, provided you give appropriate credit. See the [LICENSE.md](LICENSE.md) file for more details (if you add one).
-The code (if any) in this repository might be under a different license, please check the respective directories.
+*   Email: `[Ziqian.Zhang21@student.xjtlu.edu.cn]`
 
 ---
 
