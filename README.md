@@ -1,8 +1,8 @@
-# [FusionMedCLIP: A Framework for Few-Shot Medical Anomaly Detection via Adapted Vision-Language Model]
+# FusionMedCLIP: A Framework for Few-Shot Medical Anomaly Detection via Adapted Vision-Language Model
 
-**Author:** [Ziqian Zhang]
-**Affiliation:** [School of AI and Advanced Computing XI’AN JIAOTONG-LIVERPOOL UNIVERSITY]
-**Date of Submission/Defense:** [April 2025]
+**Author:** Ziqian Zhang
+**Affiliation:**[School of AI and Advanced Computing XI’AN JIAOTONG-LIVERPOOL UNIVERSITY
+**Date of Submission/Defense:** April 2025
 
 ---
 
